@@ -25,8 +25,6 @@ public class Junit_Assignmet {
 		Select s= new Select(element);
         s.selectByVisibleText(text);	
 	}	
-	
-
 	@Before
 	public void BrowserLaunch()
 	{
@@ -35,8 +33,6 @@ public class Junit_Assignmet {
         driver.get("https://www.facebook.com/r.php?locale=en_GB&display=page");
         driver.manage().window().maximize();
 	}
-	
-	
 	@Test
 	public void SignUp() {
 		WebElement FirstName = driver.findElement(By.id("u_0_n"));
@@ -59,11 +55,9 @@ public class Junit_Assignmet {
         WebElement Button,Custom;       
         System.out.println("Please enter gender Male/Female/Custom");
         Scanner sc = new Scanner(System.in);
-        String Gender = sc.next();
-        
+        String Gender = sc.next();   
         switch(Gender)
         {
-        
         case "Male" :
         	Button = driver.findElement(By.cssSelector("input#u_0_7"));
         	Button.click();

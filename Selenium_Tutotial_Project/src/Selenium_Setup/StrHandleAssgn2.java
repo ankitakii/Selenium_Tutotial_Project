@@ -15,13 +15,11 @@ public class StrHandleAssgn2 {
 		for (int i = l-1 ; i >=0 ;i--) {
 			
 			if(i!=0)
-			res += strArr[i]+ "  ";
+			res += strArr[i]+" ";
 			else
 				res += strArr[i] ;
 		}
 		System.out.println(res);
-		
-
 	}
 
 	}

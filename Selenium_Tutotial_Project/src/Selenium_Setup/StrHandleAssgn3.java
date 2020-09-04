@@ -13,9 +13,7 @@ public class StrHandleAssgn3 {
 			result+= ch[i];
 			}		
 	return result ;
-	
-	}
-	
+	}	
 	public static void main(String[] args) {
 		System.out.println("Enter the scentence to reverse");
 		Scanner sc = new Scanner(System.in);
@@ -31,8 +29,5 @@ public class StrHandleAssgn3 {
 				res += Reverse(strArr[i]) ;	
 		}
 		System.out.println(res);
-		
-
 	}
-
 }

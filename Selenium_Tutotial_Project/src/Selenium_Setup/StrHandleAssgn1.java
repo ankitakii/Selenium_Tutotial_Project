@@ -22,13 +22,13 @@ public class StrHandleAssgn1 {
 		}
 
 	}
-
 	public static void main(String[] args) {
-		System.out.println("Enter the scentence to reverse");
+		System.out.println("Enter the string to check planidrome or not");
 		Scanner sc = new Scanner(System.in);
 		String original = sc.nextLine();
+		String word = original.toLowerCase();
 		StrHandleAssgn1 sr=  new StrHandleAssgn1();
-		sr.stringreverse(original);
+		sr.stringreverse(word);
 	}
 
 }

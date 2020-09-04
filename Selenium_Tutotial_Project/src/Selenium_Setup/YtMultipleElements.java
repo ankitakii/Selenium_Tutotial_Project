@@ -42,7 +42,7 @@ public class YtMultipleElements {
         
         }
         
-        System.out.println("Current tab URLs" +mulwin);
+        System.out.println("Current window URL : "+driver.getCurrentUrl());
         
 	}
 

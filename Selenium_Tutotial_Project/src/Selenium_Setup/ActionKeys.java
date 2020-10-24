@@ -47,7 +47,7 @@ public class ActionKeys {
         ActionKeys ak = new ActionKeys();
        ak.ReadData(0,1);
         
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         
         ak.ReadData(0,3);			
 	}
